@@ -21,7 +21,7 @@ Headers = {
 }
 
 scrape_time = datetime.date.today().isoformat()
-file_path = "Nigeria_fx.parquet"
+file_path = "Nigeria_fx.csv"
 
 # Step 1: Fetch JSON
 response = requests.get(URL, headers=Headers)
