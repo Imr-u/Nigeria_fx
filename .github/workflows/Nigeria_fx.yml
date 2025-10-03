@@ -34,6 +34,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add Nigeria_fx.parquet
-          git commit -m "Update Nigeria_fx.parquet [skip ci]" || echo "No changes to commit"
+          git add Nigeria_fx.csv
+          git commit -m "Update Nigeria_fx.csv [skip ci]" || echo "No changes to commit"
           git push
